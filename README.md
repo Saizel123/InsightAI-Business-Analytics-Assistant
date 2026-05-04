@@ -105,15 +105,12 @@ The Hugging Face API token is entered through the Streamlit sidebar at runtime a
 2. Go to the project folder:
 
 ```text
-
 cd C:\\Users\\Acer\\OneDrive\\Desktop\\InsightAI
 ```
 
 
 3. Activate the virtual environment:
 ```text
-
-
 venv\\Scripts\\activate
 ```
 
@@ -121,7 +118,6 @@ venv\\Scripts\\activate
 4. Install dependencies:
 
 ```text
-
 pip install -r requirements.txt
 ```
 
@@ -129,17 +125,17 @@ pip install -r requirements.txt
 5. Run the Streamlit app:
 
 ```text
-
 streamlit run app\\streamlit\_app.py
-
 ```  
 
 ## Project Goal
 
-
-
 The goal of this project is to demonstrate practical data analytics, dashboarding, SQL, business insight generation, and API-based AI integration in one end-to-end data application.
 
+
+## Live Demo
+Please try it out!! 
+[Live_Demo](https://insightai-business-analytics-assistant-857txnogbfjsgccziumucg.streamlit.app/)
 
 
 ## Disclaimer
