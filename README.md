@@ -1,4 +1,4 @@
-\# InsightAI — Business Analytics Assistant
+# InsightAI — Business Analytics Assistant
 
 
 
@@ -6,63 +6,63 @@ InsightAI is an AI-powered business analytics web app built with Streamlit. It h
 
 
 
-\## Features
+## Features
 
-\----------------------
-
-
-
-\- Interactive business dashboard with sales, profit, orders, customers, AOV, and profit margin
-
-\- Sidebar filters for year, region, category, segment, and state
-
-\- Data quality report for missing values, duplicates, data types, and unique values
-
-\- Business performance charts using Plotly
-
-\- Top performers analysis for products and customers
-
-\- Loss and risk analysis for loss-making products and regions
-
-\- Profitability analysis using sales vs profit bubble charts
-
-\- Rule-based business recommendations
-
-\- Ask Your Data assistant for common business questions
-
-\- SQL query generator and custom SQL playground using SQLite
-
-\- AI-generated executive summary using Hugging Face Inference API
-
-\- Downloadable executive report and filtered dataset
+----------------------
 
 
 
-\## Tech Stack
+- Interactive business dashboard with sales, profit, orders, customers, AOV, and profit margin
 
-\------------------
+- Sidebar filters for year, region, category, segment, and state
+
+- Data quality report for missing values, duplicates, data types, and unique values
+
+- Business performance charts using Plotly
+
+- Top performers analysis for products and customers
+
+- Loss and risk analysis for loss-making products and regions
+
+- Profitability analysis using sales vs profit bubble charts
+
+- Rule-based business recommendations
+
+- Ask Your Data assistant for common business questions
+
+- SQL query generator and custom SQL playground using SQLite
+
+- AI-generated executive summary using Hugging Face Inference API
+
+- Downloadable executive report and filtered dataset
 
 
 
-\- Python
+## Tech Stack
 
-\- Streamlit
-
-\- pandas
-
-\- Plotly
-
-\- SQLite
-
-\- Hugging Face Inference API
-
-\- requests
+------------------
 
 
 
-\## Dataset
+- Python
 
-\-----------------
+- Streamlit
+
+- pandas
+
+- Plotly
+
+- SQLite
+
+- Hugging Face Inference API
+
+- requests
+
+
+
+## Dataset
+
+-----------------
 
 
 
@@ -70,9 +70,9 @@ The app uses the Sample Superstore sales dataset as the default dataset. Users c
 
 
 
-\## AI Integration
+## AI Integration
 
-\------------------
+------------------
 
 
 
@@ -92,53 +92,49 @@ The Hugging Face API token is entered through the Streamlit sidebar at runtime a
 
 
 
-\## How to Run Locally
+## How to Run Locally
 
-\------------------
-
-
-
-1\. Open Command Prompt.
+------------------
 
 
 
-2\. Go to the project folder:
+1. Open Command Prompt.
 
 
 
-&#x20;  cd C:\\Users\\Acer\\OneDrive\\Desktop\\InsightAI
+2. Go to the project folder:
+
+```text
+
+cd C:\\Users\\Acer\\OneDrive\\Desktop\\InsightAI
+```
 
 
-
-3\. Activate the virtual environment:
-
-
-
-&#x20;  venv\\Scripts\\activate
+3. Activate the virtual environment:
+```text
 
 
-
-4\. Install dependencies:
-
-
-
-&#x20;  pip install -r requirements.txt
+venv\\Scripts\\activate
+```
 
 
+4. Install dependencies:
 
-5\. Run the Streamlit app:
+```text
 
-
-
-&#x20;  streamlit run app\\streamlit\_app.py
-
-&#x20;   
+pip install -r requirements.txt
+```
 
 
+5. Run the Streamlit app:
 
+```text
 
+streamlit run app\\streamlit\_app.py
 
-\## Project Goal
+```  
+
+## Project Goal
 
 
 
@@ -146,7 +142,7 @@ The goal of this project is to demonstrate practical data analytics, dashboardin
 
 
 
-\## Disclaimer
+## Disclaimer
 
 
 
