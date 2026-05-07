@@ -36,6 +36,14 @@ InsightAI is an AI-powered business analytics web app built with Streamlit. It h
 
 - Downloadable executive report and filtered dataset
 
+- Budget vs Actual / Variance Analysis for controlling-style reporting
+
+- Department-level variance analysis by budget, actual cost, revenue, profit, variance, and variance %
+
+- Automated generation of stakeholder-ready reports in TXT and Excel formats
+
+- Excel exports for business summary reports and controlling variance reports
+
 
 
 ## Tech Stack
@@ -58,7 +66,7 @@ InsightAI is an AI-powered business analytics web app built with Streamlit. It h
 
 - requests
 
-
+- openpyxl
 
 ## Dataset
 
@@ -67,6 +75,14 @@ InsightAI is an AI-powered business analytics web app built with Streamlit. It h
 
 
 The app uses the Sample Superstore sales dataset as the default dataset. Users can also upload their own CSV or Excel file if it follows the expected Superstore-style schema.
+
+## Controlling Dataset
+
+-------------------
+
+The Budget vs Actual section uses a synthetic sample dataset created for demonstrating controlling and variance analysis workflows. It includes monthly department-level budget, actual cost, revenue, profit, variance, and variance percentage.
+
+The dataset is used for portfolio and learning purposes and does not represent real company financial data.
 
 
 
@@ -130,7 +146,7 @@ streamlit run app\\streamlit\_app.py
 
 ## Project Goal
 
-The goal of this project is to demonstrate practical data analytics, dashboarding, SQL, business insight generation, and API-based AI integration in one end-to-end data application.
+The goal of this project is to demonstrate practical data analytics, dashboarding, SQL, business insight generation, controlling-style variance analysis, stakeholder-ready report generation, and API-based AI integration in one end-to-end data application.
 
 
 ## Live Demo
