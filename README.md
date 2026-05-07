@@ -151,7 +151,7 @@ The goal of this project is to demonstrate practical data analytics, dashboardin
 
 ## Live Demo
 Please try it out!! 
-[Live_Demo]([https://insightai-business-analytics-assistant-857txnogbfjsgccziumucg.streamlit.app/](https://insightai-business-analytics-assistant-dtrheazblz2zjz8yhuv5ae.streamlit.app/))
+[Live_Demo](https://insightai-business-analytics-assistant-dtrheazblz2zjz8yhuv5ae.streamlit.app/)
 
 
 ## Disclaimer
